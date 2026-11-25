@@ -1,0 +1,50 @@
+/* Catálogo GI IMPORTS — tela de acesso */
+.login-screen {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px 16px;
+  background:
+    radial-gradient(ellipse at 82% 28%, #254369 0, transparent 60%),
+    linear-gradient(108deg, #17213f 8%, #1b2b50 66%, #1a3455 100%);
+}
+.login-card {
+  display: grid;
+  gap: 6px;
+  width: min(400px, 100%);
+  padding: 28px 26px 26px;
+  border-top: 3px solid #25a893;
+  border-radius: 14px;
+  background: var(--white);
+  box-shadow: 0 20px 60px #07132755;
+}
+.login-logo { margin-bottom: 10px; }
+.login-eyebrow { color: var(--teal); font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.login-card h1 { color: var(--ink); font-size: 26px; font-weight: 740; letter-spacing: -.04em; line-height: 1.15; }
+.login-help { margin-bottom: 12px; color: var(--muted); font-size: 13px; }
+.login-card label { margin-top: 6px; color: var(--body); font-size: 12px; font-weight: 640; }
+.login-card input {
+  height: 44px;
+  padding: 0 12px;
+  border: 1px solid #ccd7e6;
+  border-radius: 8px;
+  background: #f8fafd;
+  color: var(--ink);
+  font-size: 15px;
+}
+.login-card input:focus { outline: 0; border-color: #0a8b77; background: white; box-shadow: 0 0 0 3px #0a8b771c; }
+.login-error { margin-top: 6px; padding: 8px 10px; border-radius: 7px; background: #fdecec; color: #9b1c1c; font-size: 13px; }
+.login-card button {
+  margin-top: 14px;
+  height: 46px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--teal);
+  color: white;
+  font-size: 14px;
+  font-weight: 680;
+}
+.login-card button:hover:not(:disabled) { background: #005647; }
+.login-card button:disabled { opacity: .7; cursor: progress; }
+.login-noscript { margin-top: 14px; color: #d3ddf1; font-size: 13px; }
+.footer-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 20px; }

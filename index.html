@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#151f3d">
+  <title>Catálogo GI IMPORTS</title>
+  <link rel="icon" type="image/png" href="imagens/logo-noreika.png">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/acesso.css">
+</head>
+<body>
+  <main id="login" class="login-screen">
+    <form class="login-card" id="login-form">
+      <span class="brand-mark login-logo"><img src="imagens/logo-noreika.png" alt="Noreika Auto Peças" width="1500" height="1500"></span>
+      <p class="login-eyebrow">Acesso restrito</p>
+      <h1>Catálogo GI IMPORTS</h1>
+      <p class="login-help">Entre com o usuário e a senha que você recebeu da Noreika Auto Peças.</p>
+      <label for="usuario">Usuário</label>
+      <input id="usuario" name="username" autocomplete="username" autocapitalize="none" spellcheck="false" required>
+      <label for="senha">Senha</label>
+      <input id="senha" name="password" type="password" autocomplete="current-password" required>
+      <p id="login-error" class="login-error" role="alert" hidden></p>
+      <button type="submit" id="login-button">Entrar</button>
+    </form>
+    <noscript><p class="login-noscript">Ative o JavaScript para acessar o catálogo.</p></noscript>
+  </main>
+  <div id="app" hidden></div>
+  <script src="js/acesso.js"></script>
+</body>
+</html>
